@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sounds\Astoria következik.wav" />
+    <None Remove="Sounds\Astoria.wav" />
+    <None Remove="Sounds\Batthyány tér.wav" />
+    <None Remove="Sounds\Batthyány_tér_következik.wav" />
+    <None Remove="Sounds\Blaha Lujza tér következik.wav" />
+    <None Remove="Sounds\Blaha Lujza tér.wav" />
+    <None Remove="Sounds\Deák Ferenc tér következik.wav" />
+    <None Remove="Sounds\Deák Ferenc tér.wav" />
+    <None Remove="Sounds\Déli felé.wav" />
+    <None Remove="Sounds\Déli Pályaudvar következik.wav" />
+    <None Remove="Sounds\Déli Pályaudvar.wav" />
+    <None Remove="Sounds\Keleti Pályaudvar következik.wav" />
+    <None Remove="Sounds\Keleti Pályaudvar.wav" />
+    <None Remove="Sounds\Kossuth Lajos tér következik.wav" />
+    <None Remove="Sounds\Kossuth Lajos tér.wav" />
+    <None Remove="Sounds\Kérem vigyázzanak az ajtók záródnak.wav" />
+    <None Remove="Sounds\M2 a déli felé.wav" />
+    <None Remove="Sounds\M2-es metró az Örs felé.wav" />
+    <None Remove="Sounds\Pillangó utca következik.wav" />
+    <None Remove="Sounds\Pillangó utca.wav" />
+    <None Remove="Sounds\Puskás Ferenc Stadion következik.wav" />
+    <None Remove="Sounds\Puskás Ferenc Stadion.wav" />
+    <None Remove="Sounds\Széll Kálmán tér.wav" />
+    <None Remove="Sounds\Örs Vezér tere következik.wav" />
+    <None Remove="Sounds\Örs Vezér tere.wav" />
+    <None Remove="Sounds\Örs_felé.wav" />
+    <None Remove="subway.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Sounds\Astoria következik.wav" />
+    <Resource Include="Sounds\Astoria.wav" />
+    <Resource Include="Sounds\Batthyány tér.wav" />
+    <Resource Include="Sounds\Batthyány_tér_következik.wav" />
+    <Resource Include="Sounds\Blaha Lujza tér következik.wav" />
+    <Resource Include="Sounds\Blaha Lujza tér.wav" />
+    <Resource Include="Sounds\Deák Ferenc tér következik.wav" />
+    <Resource Include="Sounds\Deák Ferenc tér.wav" />
+    <Resource Include="Sounds\Déli felé.wav" />
+    <Resource Include="Sounds\Déli Pályaudvar következik.wav" />
+    <Resource Include="Sounds\Déli Pályaudvar.wav" />
+    <Resource Include="Sounds\Keleti Pályaudvar következik.wav" />
+    <Resource Include="Sounds\Keleti Pályaudvar.wav" />
+    <Resource Include="Sounds\Kossuth Lajos tér következik.wav" />
+    <Resource Include="Sounds\Kossuth Lajos tér.wav" />
+    <Resource Include="Sounds\Kérem vigyázzanak az ajtók záródnak.wav" />
+    <Resource Include="Sounds\M2 a déli felé.wav" />
+    <Resource Include="Sounds\M2-es metró az Örs felé.wav" />
+    <Resource Include="Sounds\Pillangó utca következik.wav" />
+    <Resource Include="Sounds\Pillangó utca.wav" />
+    <Resource Include="Sounds\Puskás Ferenc Stadion következik.wav" />
+    <Resource Include="Sounds\Puskás Ferenc Stadion.wav" />
+    <Resource Include="Sounds\Széll Kálmán tér.wav" />
+    <Resource Include="Sounds\Örs Vezér tere következik.wav" />
+    <Resource Include="Sounds\Örs Vezér tere.wav" />
+    <Resource Include="Sounds\Örs_felé.wav" />
+    <Resource Include="subway.png" />
+  </ItemGroup>
+
+</Project>
