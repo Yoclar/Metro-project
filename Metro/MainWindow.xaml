@@ -5,23 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Metro"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="1100" >
-    <Canvas Margin="0,-2,0,2">
+        Title="MainWindow" Height="450" Width="1100">
+    <Canvas Margin="0,-2,0,2" Name="Canvas">
         <!-- Metro Line-->
         <Line X1="50" Y1="200" X2="1013" Y2="200" Stroke="Black" StrokeThickness="3"/>
 
         <!--Stations-->
         <Ellipse x:Name="Déli_Pályaudvar" Width="20" Height="20" Fill="Red" Canvas.Left="50" Canvas.Top="190"/>
         <Ellipse x:Name="Széll_Kálmán_tér" Width="20" Height="20" Fill="Red" Canvas.Left="133" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="204" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="274" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="377" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="429" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="515" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="591" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="790" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="885" Canvas.Top="190"/>
-        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="1013" Canvas.Top="190"/>
+        <Ellipse x:Name="Batthyány_tér" Width="20" Height="20" Fill="Red" Canvas.Left="204" Canvas.Top="190"/>
+        <Ellipse x:Name="Kossuth_Lajos_tér" Width="20" Height="20" Fill="Red" Canvas.Left="274" Canvas.Top="190"/>
+        <Ellipse x:Name="Deák_Ferenc_tér" Width="20" Height="20" Fill="Red" Canvas.Left="377" Canvas.Top="190"/>
+        <Ellipse x:Name="Astoria" Width="20" Height="20" Fill="Red" Canvas.Left="429" Canvas.Top="190"/>
+        <Ellipse x:Name="Blaha_Lujza_tér" Width="20" Height="20" Fill="Red" Canvas.Left="515" Canvas.Top="190"/>
+        <Ellipse x:Name="Keleti_Pályaudvar" Width="20" Height="20" Fill="Red" Canvas.Left="591" Canvas.Top="190"/>
+        <Ellipse x:Name="Puskás_Ferenc_Stadion" Width="20" Height="20" Fill="Red" Canvas.Left="790" Canvas.Top="190"/>
+        <Ellipse x:Name="Pillangó_utca" Width="20" Height="20" Fill="Red" Canvas.Left="885" Canvas.Top="190"/>
+        <Ellipse x:Name="Örs_Vezér_tere" Width="20" Height="20" Fill="Red" Canvas.Left="1013" Canvas.Top="190"/>
         <Label Content="Déli Pályaudvar" Canvas.Left="31" Canvas.Top="101" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top">
             <Label.RenderTransform>
                 <TransformGroup>
