@@ -70,6 +70,7 @@ namespace Metro
                         var currentStation = stations.First(x => x.Position == metroPosition);
                         var indexOffset = (direction == Direction.LeftToRight ? 1 : -1);
                         var currentIndex = stations.IndexOf(currentStation);
+                        
                         if (direction == Direction.LeftToRight && currentIndex == 0)
                         {
                             PlaySound("Örs felé.wav");
@@ -82,6 +83,7 @@ namespace Metro
                             direction == Direction.RightToLeft && currentIndex != stations.Count - 1)
                         {
                             PlaySound(currentStation.AnnouncementAudio);
+                            Task.Delay(40);
                         }
                         var nextIndex = currentIndex + indexOffset;
                         if (nextIndex >= 0 && nextIndex < stations.Count)
@@ -90,6 +92,14 @@ namespace Metro
                             if ((direction == Direction.LeftToRight && currentIndex != 0) ||
                                 direction == Direction.RightToLeft && currentIndex != stations.Count - 1)
                             {
+                                if (direction == Direction.LeftToRight && currentIndex == 4 || currentIndex == 7)
+                                {
+                                    PlaySound("M2-es metró az Örs felé.wav");
+                                }
+                                else if (direction == Direction.RightToLeft &&  currentIndex == 7 || currentIndex == 4)
+                                {
+                                    PlaySound("M2-es a déli felé.wav");
+                                }
                                 PlaySound(nextStation.NextStationAudio);
                             }
                         }
